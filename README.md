@@ -7,6 +7,11 @@ About:
 A console character based snake game with random generated collectables and obstacles with highscores and option settings.
 
 
+Used languages:
+---------------
+- C#
+
+
 Features:
 ---------
 - Console
