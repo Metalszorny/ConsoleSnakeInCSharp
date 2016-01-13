@@ -82,7 +82,7 @@ namespace ConsoleSnake
         /// <summary>
         /// Draws the SnakePart.
         /// </summary>
-        /// <returns>The image of the Pacman object.</returns>
+        /// <returns>The image of the SnakePart object.</returns>
         public char Draw()
         {
             try
