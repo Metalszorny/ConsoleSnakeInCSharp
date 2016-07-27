@@ -1,4 +1,4 @@
-# ConsoleSnakeInCSharp
+# ConsoleSnakeInVisualCSharp
 ======================
 
 
@@ -9,7 +9,7 @@ A console character based snake game with random generated collectables and obst
 
 Used languages:
 ---------------
-- C#
+- Visual C#
 - XML
 
 
