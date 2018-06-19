@@ -1,5 +1,4 @@
 # ConsoleSnakeInVisualCSharp
-======================
 
 
 About:
@@ -16,9 +15,9 @@ Used languages:
 Features:
 ---------
 - Console
-- class & struct
-- XML read and write
-- TXT read
+- Character based menu
+- XML read and write for highscores
+- TXT read for map
 
 
 Envitoment:
