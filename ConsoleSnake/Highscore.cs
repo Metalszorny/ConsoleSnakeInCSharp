@@ -84,6 +84,12 @@ namespace ConsoleSnake
             Name = name;
             Score = score;
         }
+		
+		/// <summary>
+        /// Destroys the instance of the <see cref="Highscore"/> class.
+        /// </summary>
+        ~Highscore()
+        { }
 
         #endregion Constructors
 

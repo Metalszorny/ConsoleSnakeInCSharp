@@ -75,6 +75,12 @@ namespace ConsoleSnake
             this.BodyPart = bodypart;
         }
 
+		/// <summary>
+        /// Destroys the instance of the <see cref="SnakePart"/> class.
+        /// </summary>
+        ~SnakePart()
+        { }
+		
         #endregion Constructors
 
         #region Methods

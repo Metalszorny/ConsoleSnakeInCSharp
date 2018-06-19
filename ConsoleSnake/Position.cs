@@ -61,6 +61,12 @@ namespace ConsoleSnake
             this.x = x;
             this.y = y;
         }
+		
+		/// <summary>
+        /// Destroys the instance of the <see cref="Position"/> class.
+        /// </summary>
+		~Position()
+		{ }
 
         #endregion Constructors
 

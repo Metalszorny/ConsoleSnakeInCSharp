@@ -1132,6 +1132,7 @@ namespace ConsoleSnake
                 Console.Write("Color: ");
                 Console.BackgroundColor = ConsoleColor.Gray;
                 Console.ForegroundColor = ConsoleColor.Black;
+				
                 if (coloredMap)
                 {
                     Console.Write("On ");
@@ -1140,11 +1141,13 @@ namespace ConsoleSnake
                 {
                     Console.Write("Off");
                 }
+				
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.Gray;
                 Console.WriteLine();
                 Console.WriteLine();
                 Console.Write("Difficulty: ");
+				
                 switch (gameDifficulty)
                 {
                     case GameDifficulties.Easy:
@@ -1157,6 +1160,7 @@ namespace ConsoleSnake
                         Console.Write(" Hard ");
                         break;
                 }
+				
                 Console.WriteLine();
                 Console.WriteLine();
 

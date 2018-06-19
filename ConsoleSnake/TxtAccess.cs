@@ -45,6 +45,12 @@ namespace ConsoleSnake
         {
             TxtPath = path;
         }
+		
+		/// <summary>
+        /// Destroys the instance of the <see cref="TxtAccess"/> class.
+        /// </summary>
+        ~TxtAccess()
+        { }
 
         #endregion Constructors
 
@@ -88,7 +94,7 @@ namespace ConsoleSnake
                     char[,] returnValue = new char[mapHeight, mapWidth];
 
                     // Open the connection.
-                    var reader = new StreamReader(TxtPath);
+                    StreamReader reader = new StreamReader(TxtPath);
                     string line;
                     int i = 0;
 

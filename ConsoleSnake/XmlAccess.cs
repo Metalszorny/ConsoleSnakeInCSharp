@@ -51,6 +51,12 @@ namespace ConsoleSnake
                 Create();
             }
         }
+		
+		/// <summary>
+        /// Destroys the instance of the <see cref="XmlAccess"/> class.
+        /// </summary>
+        ~XmlAccess()
+        { }
 
         #endregion Constructors
 
